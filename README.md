@@ -12,7 +12,7 @@ The difference from Pix2Pix, which also perform image-image conversion, is that 
 In this example, even with the unsupervised learning, you can see the model convert the images by understanding whether the fruit was a whole one or a cut one.
 
 
-![result image](https://insidelabs-git.mathworks.com/tfukumot/cyclegan-for-github/raw/master/pics_for_doc/Result.mp4)
+![result image](https://github.com/matlab-deep-learning/Image-domain-conversion-using-CycleGAN/raw/master/pics_for_doc/Result.mp4)
 
 
 ## **Requirements**
@@ -34,8 +34,8 @@ MATLAB version should be R2019b and later
 
 To run, open CycleGANExample.mlx and run the script. You can train the model or use the pretrained model by setting the doTraining flag to false. 
 
-![result image](https://insidelabs-git.mathworks.com/tfukumot/cyclegan-for-github/raw/master/pics_for_doc/image_6.png)
-![result image](https://insidelabs-git.mathworks.com/tfukumot/cyclegan-for-github/raw/master/pics_for_doc/image_7.png)
+![result image](https://github.com/matlab-deep-learning/Image-domain-conversion-using-CycleGAN/raw/master/pics_for_doc/image_6.png)
+![result image](https://github.com/matlab-deep-learning/Image-domain-conversion-using-CycleGAN/raw/master/pics_for_doc/image_7.png)
 
 # **Reference**
 [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf)
