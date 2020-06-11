@@ -29,7 +29,6 @@ MATLAB version should be R2019b and later
 -	generator.m — Function to create a CycleGAN generator network
 -	discriminator.m — Function to create a CycleGAN discriminator network
 -	cycleGanImageDatastore.m — Datastore to prepare batches of images for training
--	models.mat — Pretrained model that converts apples to oranges and vice-versa
 
 To run, open CycleGANExample.mlx and run the script. You can train the model or use the pretrained model by setting the doTraining flag to false. 
 
@@ -40,5 +39,3 @@ To run, open CycleGANExample.mlx and run the script. You can train the model or 
 
 
 Copyright 2019-2020 The MathWorks, Inc.
-
-
