@@ -8,8 +8,8 @@ CycleGAN is a GAN model that is generally used for the following purposes.
    -  Day / night conversion 
    -  Object transformation 
 
-The difference from Pix2Pix, which also perform image-image conversion, is that CycleGAN uses the unsupervised learning, so there is no need for a paired image dataset.
-In this example, even with the unsupervised learning, you can see the model convert the images by understanding whether the fruit was a whole one or a cut one.
+The difference from Pix2Pix, which also perform image-image conversion, is that CycleGAN uses unsupervised learning, so there is no need for a paired image dataset.
+In this example, even with unsupervised learning, you can see the model convert the images by understanding whether the fruit was a whole one or a cut one.
 
 ![result image](https://github.com/matlab-deep-learning/Image-domain-conversion-using-CycleGAN/raw/master/pics_for_doc/image_6.png)
 ![result image](https://github.com/matlab-deep-learning/Image-domain-conversion-using-CycleGAN/raw/master/pics_for_doc/image_7.png)
@@ -24,11 +24,13 @@ MATLAB version should be R2019b and later
 
 
 ## **Usage**
+The repository provides the following files:
 
 -	CycleGANExample.mlx — Example showing how to train the CycleGAN model
 -	generator.m — Function to create a CycleGAN generator network
 -	discriminator.m — Function to create a CycleGAN discriminator network
 -	cycleGanImageDatastore.m — Datastore to prepare batches of images for training
+-  cycleGAN_1000.mat -  Pretrained model that converts apples to oranges and vice-versa
 
 To run, open CycleGANExample.mlx and run the script. You can train the model or use the pretrained model by setting the doTraining flag to false. 
 
