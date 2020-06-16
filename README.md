@@ -41,5 +41,6 @@ To run, open CycleGANExample.mlx and run the script. You can train the model or 
 
 
 Copyright 2019-2020 The MathWorks, Inc.
+**[Download a free MATLAB trial for Deep Learning](https://www.mathworks.com/products/deep-learning.html)**
 
 [![View Image domain conversion using CycleGAN on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/76986-image-domain-conversion-using-cyclegan)
